@@ -1,0 +1,143 @@
+body{
+    background-color: hsl(204, 43%, 93%);
+}
+
+main{
+    margin-left: 340px;
+    margin-top: 100px;
+   
+}
+
+.join{ 
+    width: 640px;
+    height: 200px;
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 20px;
+    
+}
+
+h1{
+    color: hsl(218, 22%, 67%); 
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+   
+}
+
+.guarantee{
+    color: hsl(71, 73%, 54%); 
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.access{
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: hsl(179, 62%, 43%);
+}
+
+.subs{
+    height: 250px;
+    width: 300px;
+    background-color: hsl(179, 62%, 43%);
+    border-bottom-left-radius: 10px;
+    padding: 20px;
+    padding-left: 40px;
+    color: white;
+}
+
+h3{
+    font-family: 'Karla', sans-serif;
+    font-weight: 700; 
+}
+
+strong{
+    font-family: 'Karla', sans-serif;
+    font-weight: 700; 
+    font-size: 30px;
+}
+
+.per{
+    position: absolute;
+    opacity: 0.5;
+    margin-top: -28px;
+    margin-left: 70px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 400; 
+}
+
+.day{
+    font-family: 'Karla', sans-serif;
+    font-weight: 400; 
+}
+
+.button{
+    text-align: center;
+    height: auto;
+    width: 250px;
+    background-color: hsl(71, 73%, 54%);
+    padding: 1px;
+    border-radius: 5px;
+    margin-top: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+.why{
+    height: 250px;
+    width: 280px;
+    background-color: hsl(179, 57%, 55%);
+    margin-left: 340px;
+    margin-top: -290px;
+    border-bottom-right-radius: 10px;
+    padding: 20px;
+    color: white;
+    padding-left: 40px;
+}
+
+.why p {
+    line-height: 50%;
+    opacity: 0.7;
+    font-family: 'Karla', sans-serif;
+    font-weight: 400; 
+    font-size: 16px;
+}
+
+.info{
+    margin-top: 30px;
+}
+
+.signing-up{
+    font-family: 'Karla', sans-serif;
+    font-weight: 700; 
+}
+
+@media screen and (max-width : 425px){
+    main{
+        margin-left: 0px;
+        margin-top: 50px;
+    }
+
+    .join{
+        margin-left: 20px;
+        width: 300px;
+        height: fit-content;
+    }
+
+    .subs{
+        margin-left: 20px;
+        width: 280px;
+        border-radius: 0px;
+    }
+
+    .why{
+        margin-left: 20px;
+        margin-top: 0px;
+        width: 280px;
+        border-bottom-left-radius: 10px;
+    }
+}
